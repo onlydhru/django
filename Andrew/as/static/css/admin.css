@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+:root {
+  --bs-body-font-family: monospace;
+}
+
+
+}
+a {
+    text-decoration: none;
+}
+.logout {
+    float: right;
+    padding-right: 30px;
+}
+ul {
+    background-color: #25282F;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+ul li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+ul li a {
+    color: skyblue;
+    font-weight: bold;
+
+}
+.textinfo {
+    border: black;
+}
+p{
+ text-align: center;
+}
